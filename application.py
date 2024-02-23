@@ -47,7 +47,7 @@ try:
     input_df = pd.DataFrame([user_input])
 
     # Predict the outcome
-    prediction=''
+    prediction=None
 
     # Display the prediction
     
