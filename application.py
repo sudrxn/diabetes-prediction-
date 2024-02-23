@@ -47,11 +47,11 @@ try:
     input_df = pd.DataFrame([user_input])
 
     # Predict the outcome
-    prediction=None
+    prediction=''
 
     # Display the prediction
-    
-
+    prediction=model.predict(input_df)
+    print('prediction',prediction)
     # Display the user input data
     st.subheader('User Input Data')
     st.write(user_input)
