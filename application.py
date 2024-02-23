@@ -59,7 +59,7 @@ try:
         st.subheader('Prediction')
         if(prediction==1):
             st.warning('The person is likely to have diabetes.')
-        else:
+        elif(prediction==0):
             st.success("The person Does not have diabetes")
 except:
     st.warning("Internal Servor Error")
