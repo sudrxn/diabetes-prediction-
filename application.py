@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model
-model_filename ='E:\diabetes prediction\prod.pkl'
+model_filename ='./prod.pkl'
 with open(model_filename, 'rb') as file:
     model = pickle.load(file)
 
