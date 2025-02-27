@@ -72,7 +72,7 @@ streamlit run app.py
 ---
 
 ## Author
-**Mr. Hale**
+**sudershan**
 
 ---
 
